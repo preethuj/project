@@ -17,14 +17,7 @@ comments, blog posts on the web. Sentiment is classified automatically for impor
 applications such as opinion mining and summarization. To make valuable decisions in
 
 marketing analysis where implement sentiment classification efficiently. Reviews contain
-
-sentiment which is expressed in a different way in different domains and it is costly to
-
-annotate data for each new domain. The analysis of online customer reviews in which firms
-
-cannot discover what exactly people liked and did not like in document-level and sentence-
-
-level opinion mining. So, now opinionmining ongoing research is in phrase-
+arch is in phrase-
 
 level opinion mining. It performs finer-grained analysis and directly looks at the opinion in
 
