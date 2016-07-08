@@ -1,0 +1,182 @@
+html,body{
+  margin:0px;
+}
+
+div{
+  height: 158%;
+}
+
+#blank{
+  background-image: url("../assets/BG1.png");
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 41%;
+}
+
+#fill{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  width: 59%;
+  background-image: linear-gradient(rgba(10,47,75, 0.6), rgba(10,47,75, 0.6)),url("../assets/BG2.png");
+  color: #10b7b9;
+  vertical-align: middle;
+  margin-left:auto;
+  margin-right: auto; 
+}
+
+h1{
+  text-align: center;
+  color: #4169E1;
+  font-size: 2.75em;
+  font-family: Arial;
+  margin-bottom: 0px;
+}
+
+h2{
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+#doc{
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 10%;
+  margin-right: auto;
+  border: 0px;
+  margin-top: 0%;
+}
+
+#container{
+  height: 90%;
+  width: 100%;
+}
+
+.footer{
+  text-align: center;
+  font-size: 1.25em;
+  color: white;
+  font-family: Arial;
+  margin-left: 15%;
+  display: inline;
+  font-weight: lighter;
+  margin-top: 0px;
+  height:5%;
+}
+
+input, select, button{
+  display: block;
+  border-radius: 50em;
+  margin-top: 4%;
+  text-align: center;
+  width: 85%;
+  height: 7%;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.error{
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 0px;
+  border-top: 0px;
+  margin-right: 0%;
+  border-right: 0;
+  padding-right: 10%;
+}
+
+select{
+  text-align-last: center;
+}
+
+button{
+  background-color: #009CFB;
+  color: white;
+  font-size: 2em;
+  vertical-align: middle;
+  text-align: center;
+  border: 0px;
+}
+
+label{
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: 1.5em;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+    display:none;
+    text-align: center;
+    height: 4%;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width: 4%;
+    height: 3%;
+    vertical-align:middle;
+    background:url("../assets/radiobtn_normal.png") left top no-repeat;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+    background:url("../assets/radiobtn_active.png") left top no-repeat;
+}
+
+a{
+  color: #32D189;
+}
+
+.image-upload{
+  height: 10%;
+  margin-left: auto;
+  margin-right: 10%;
+  padding: 0px;
+  margin-top: 0px;
+
+}
+
+
+.image-upload > input
+{
+    display: none;
+    margin-top: 0px;
+    color: #4169E1;
+    margin-left: 43%;
+    height: 25%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+}
+
+.form1{
+  height: 70%;
+  padding-bottom: 0px;
+  margin-top: 10%;
+}
+
+img{
+  width:15%;
+  height:100%;
+  margin-bottom: 2.5%;
+}
+
+span{
+  margin-top: 5%;
+  font-size: 0.75em;
+  color: #32D189;
+}
+
+.radiospan{
+  margin-top: 0px;
+  position: relative;
+}
+
